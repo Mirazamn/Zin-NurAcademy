@@ -1,0 +1,36 @@
+footer {
+    background: var(--Mine-Shaft);
+    padding: 24px 0;
+}
+
+
+footer > .flex {
+    justify-content: space-between;
+}
+
+
+footer .f-social {
+    display: flex;
+    width: 176px;
+    gap: 16px;
+}
+
+
+footer .f-social img {
+    cursor: pointer;
+}
+
+
+
+footer h5 {
+    color: var(--Zircon);
+}
+
+
+@media (max-width: 500px) {
+    footer > .flex {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}

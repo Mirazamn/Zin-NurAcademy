@@ -1,0 +1,144 @@
+header {
+    position: relative;
+    padding: 20px 0;
+    background: var(--Zircon);
+    z-index: 999;
+    width: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+header .flex {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+header > .flex {
+    justify-content: space-between;
+}
+
+
+.h-button, .h-li {
+    border: none;
+    padding: 18px 50px;
+    border-radius: 20px;
+    background: none;
+    color: var(--Observatory);
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+.h-button {
+    background: var(--Aqua-Squeeze);
+    width: 209px;
+}
+
+
+.cta {
+    background: var(--Brand-color);
+    color: var(--Zircon);
+    border: none;
+
+    width: 255px;
+}
+
+
+header .container {
+    width: 80%;
+}
+
+
+/* Animation */
+header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100vw ;
+    transform: translateY(0);
+    opacity: 0.95;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+ 
+
+header.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+
+/* Logo */
+header a img {
+    width: 90px;
+    margin: 0 0 0 60px;
+}
+
+
+/* Mobile */
+@media (max-width: 500px) {
+    header {
+        width: 100%;
+    }
+
+
+    header a img {
+        margin: 0 130px;
+    }
+
+
+    header .container .flex {
+        display: none;
+    }
+
+    .h-button, .h-li {
+        padding: 10px 20px;
+    }
+
+
+    header .flex {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Animation */
+    header.fixed {
+        position: relative;
+        top: 0;
+        width: 100vw ;
+        transform: translateY(0);
+        opacity: 1;
+        box-shadow: 0;
+    }
+
+    header.hidden {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}
+
+/* Tablet */
+@media (max-width: 780px) {
+    header .flex {
+        justify-content: space-between;
+    }
+
+
+    .cta, .h-li {
+        display: none;
+    }
+
+
+    .container {
+        width: 90%;
+    }
+
+
+    button {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

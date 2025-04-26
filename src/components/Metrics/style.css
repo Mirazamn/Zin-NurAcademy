@@ -1,0 +1,113 @@
+.metrics h1 {
+    text-align: center;
+}
+
+
+.metrics p {
+    padding: 30px 0;
+    text-align: center;
+    color: var(--Mine-Shaft);
+}
+
+
+.metric {
+    background: var(--White);
+    padding: 48px 16px;
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: solid 6px var(--Mandys-Pink);
+}
+
+
+.metric span {
+    width: 238px;
+    color: var(--Mine-Shaft);
+    text-align: center;
+}
+
+
+.metric h4 {
+    color: var(--Mine-Shaft);
+    width: 238px;
+    text-align: center;
+}
+
+
+.metrics .flex {
+    padding: 60px 0 120px;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+/* Mobile */
+@media (max-width: 500px) {
+    .metrics > .container >.flex {
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+    }
+
+
+
+    .metrics > .container {
+        width: 90%;
+    }
+
+
+    .metric {
+        padding: 30px 20px;
+        height: 143px;
+    }
+
+
+    .metric span {
+        width: 65px;   
+    }
+
+
+    .display-m {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+
+
+    .metric h4 {
+        font-size: 16px;
+        font-weight: 400;
+        width: 130px;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 780px) {
+    .metric {
+        padding: 30px 16px;
+    }
+
+
+    .display-m {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    
+    .metric span {
+        width: 123px;        
+    }
+
+
+    .metric h4 {
+        width: 123px;
+    }
+}

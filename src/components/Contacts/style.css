@@ -1,0 +1,157 @@
+.contacts .container {
+    background: var(--White);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+
+.contacts h1 {
+    color: var(--Mine-Shaft);
+    width: 465px;
+}
+
+
+.contacts p {
+    color: var(--Mine-Shaft);
+    width: 1050px;
+    padding: 10px 0 60px 0;
+}
+
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.contact-details h2 {
+    color: var(--Mine-Shaft);
+    gap: 5px;
+}
+
+
+.social {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 63px;
+    width: 465px;
+}
+
+
+.social-links {
+    gap: 16px;    
+}
+
+
+.social-media {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+.contacts {
+    padding: 60px 0;
+}
+
+
+.contacts form {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+
+.contacts .wraper {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+form .field {
+    padding: 18px 20px;
+    border: solid 1px var(--Alto);
+    border-radius: 20px;
+    width: fit-content;
+
+    align-items: center;
+    justify-content: flex-start;    
+    gap: 12px;
+}
+
+
+.field input {
+    border: none;
+    outline: none;
+    width: 384px;
+}
+
+
+.field label {
+    width: 30px;
+    height: 20px;
+    padding: 0 10px 0 0;
+    border-right: solid 1px var(--Light-Blue);
+}
+
+
+.field label img {
+    height: 20px;
+}
+
+
+form button {
+    padding: 18px 50px;
+    background: var(--Brand-color);
+    border: none;
+    color: var(--White);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* Mobile */
+@media (max-width: 500px) {
+    .container, .container > .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .container {
+        width: 90%;
+    }
+
+
+    .contacts .container h1, .contacts .container p {
+        width: 265px;
+    }
+
+    .social {
+        width: 265px;
+    }
+
+
+    .field input {
+        width: 240px;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 780px) and (min-width: 600px) {
+    .contacts .container > .flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .contacts .container p {
+        width: 465px;
+    }
+}

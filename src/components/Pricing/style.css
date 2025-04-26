@@ -1,0 +1,141 @@
+.plan h1 {
+    color: var(--Black);
+    padding: 60px 0 0 0;
+    text-align: center;
+}
+
+
+.plan p {
+    color: var(--Mine-Shaft);
+    text-align: center;
+}
+
+
+.plan-cards {
+    justify-content: space-between;
+    padding: 60px 0 120px;
+    gap: 30px;
+}
+
+
+.plan-cards .card {
+    background: var(--White);
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.card h6 {
+    color: var(--Mine-Shaft);
+}
+
+
+.card h2 span {
+   color: var(--Mine-Shaft); 
+}
+
+
+.plan-cards .card h2 {
+     color: var(--Dark-Gray);
+}
+
+
+.plan-cards .card h4 {
+     color: var(--Mine-Shaft);
+}
+
+
+.plan-cards .card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    padding: 24px 0 0 0;
+}
+
+
+.plan-cards .card ul li i {
+     color: var(--Observatory);
+}
+
+.plan-cards .card ul li {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+    color: var(--Mine-Shaft);
+}
+
+
+.plan-cards .card button {
+    background: var(--Aqua-Squeeze);
+    border: none;
+    padding: 18px 108px;
+    border-radius: 20px;
+    color: var(--Observatory);
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+
+
+body .plan .plan-cards .enterprise {
+    background: var(--Brand-color);
+}
+
+
+.plan .plan-cards .enterprise li i,
+.plan .plan-cards .enterprise li,
+.plan .plan-cards .enterprise,
+.plan .plan-cards .enterprise h6,
+.plan .plan-cards .enterprise h2,
+.plan .plan-cards .enterprise h2 span,
+.plan .plan-cards .enterprise h4 {
+    color: var(--White);
+    background: transparent;
+}
+
+
+.plan .plan-cards .enterprise button {
+    background: var(--Zircon);
+    display: flex;
+    gap: 5px;
+}
+
+
+/* Mobile */
+@media (max-width: 500px) {
+    .plan-cards {
+        overflow: auto;
+    }
+
+
+    .plan h1 {
+        padding: 60px 0 10px 0;
+    }
+
+
+    .card h2 {
+        padding: 6px 0;
+    }
+
+
+    .plan-cards .card button {
+        padding: 18px 90px;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 780px) {
+    .plan .container > .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .plan .card {
+        width: 90%;
+    }
+}

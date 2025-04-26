@@ -1,0 +1,107 @@
+.feedbacks .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.txt h3 {
+    color: var(--Mine-Shaft);
+}
+
+
+.txt p {
+    color: var(--Mine-Shaft);
+}
+
+
+.comment {
+    background: var(--White);
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 0 30px 0;
+}
+
+
+.comment main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.comment main p {
+    width: 310px;
+    color: var(--Mine-Shaft);
+    text-align: center;
+}
+
+
+.feedbacks .flex {
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 0 0 0;
+}
+
+
+/* Mobile */
+@media (max-width: 500px) {
+    .feedbacks > .container > .txt h3 {
+        text-align: center;
+    }
+
+
+    .feedbacks > .container .txt p {
+        text-align: center;
+        width: 350px;
+        padding: 25px 0 0 0;
+    }
+
+
+    .feedbacks {
+        padding: 60px 0 0 0;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 780px) and (min-width: 600px) {
+    .feedbacks .container .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .comment {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+
+    .comment main p {
+        text-align: left;
+    }
+}

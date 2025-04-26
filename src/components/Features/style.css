@@ -1,0 +1,49 @@
+.features {
+    padding: 120px 0;
+}
+
+
+.features h1 {
+    text-align: center;
+}
+
+
+.features .container > p {
+    text-align: center;
+    padding:  20px 0 60px;
+}
+
+.feature-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* Mobile */
+@media (max-width: 500px) {
+    .features .display-m {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+
+    .feature-cards {
+        flex-direction: column;
+    }   
+}
+
+
+/* Tablet */
+@media (max-width: 780px) {
+    .feature-cards {
+        flex-direction: column;
+    }   
+
+
+    .feature-card {
+        width: 80pc;
+
+    }
+}
