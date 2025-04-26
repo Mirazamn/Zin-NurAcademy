@@ -28,7 +28,7 @@ const SubscribeModal = ({ isOpen, onClose }) => {
           />
 
           <input
-            type="email"
+            type="number"
             placeholder="Telefon Raqam"
             className="email-input"
           />
