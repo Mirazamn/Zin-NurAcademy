@@ -6,9 +6,6 @@ import '../../components/variable.css'
 import '../../index.css'
 
 
-import { RightPointer } from '../../asstes/plan';
-
-
 function Plans() {
   const [isModalOpen, setModalOpen] = useState(false);
 
@@ -62,7 +59,7 @@ function Plans() {
                 <a 
                     onClick={() => setModalOpen(true)}>
                   <button className="display-x flex">
-                  Boshlash <img width="20px" src={RightPointer} alt="" />
+                  Boshlash <i className="fa-solid fa-arrow-right"></i>
                   </button>
                 </a>
               </div>

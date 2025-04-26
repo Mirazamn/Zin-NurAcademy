@@ -5,7 +5,6 @@ import './style.css'
 import '../../components/variable.css'
 import '../../index.css'
 import Card from './Card/app'
-import { RightPointer } from '../../asstes/plan'
 
 
 
@@ -37,7 +36,7 @@ function Features() {
                   onClick={() => setModalOpen(true)}>
                       <h6 className="flex display-x">
                           Batafsil
-                          <img src={RightPointer} alt="" />
+                          <i className="fa-solid fa-arrow-right"></i>
                       </h6>
                   </a>
                 </div>
@@ -53,7 +52,7 @@ function Features() {
                   onClick={() => setModalOpen(true)}>
                       <h6 className="flex display-x">
                           Batafsil
-                          <img src={RightPointer} alt="" />
+                          <i className="fa-solid fa-arrow-right"></i>
                       </h6>
                   </a>
                 </div>
@@ -70,7 +69,7 @@ function Features() {
                   onClick={() => setModalOpen(true)}>
                       <h6 className="flex display-x">
                           Batafsil
-                          <img src={RightPointer} alt="" />
+                          <i className="fa-solid fa-arrow-right"></i>
                       </h6>
                   </a>
                 </div>
