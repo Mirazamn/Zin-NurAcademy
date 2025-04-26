@@ -104,7 +104,7 @@ form .field {
 }
 
 
-form button {
+.contacts form button {
     padding: 18px 50px;
     background: var(--Brand-color);
     border: none;

@@ -20,18 +20,20 @@ const SubscribeModal = ({ isOpen, onClose }) => {
         </button>
         <h2 className="modal-title">Boshladik!</h2>
 
-        <input
-          type="email"
-          placeholder="Ismingiz"
-          className="email-input"
-        />
+        <form>
+          <input
+            type="text"
+            placeholder="Ismingiz"
+            className="email-input"
+          />
 
-        <input
-          type="email"
-          placeholder="Telefon Raqam"
-          className="email-input"
-        />
-        <button className="subscribe-btn">Yuborish</button>
+          <input
+            type="email"
+            placeholder="Telefon Raqam"
+            className="email-input"
+          />
+          <button className="subscribe-btn">Yuborish</button>
+        </form>
 
         <p className="follow-text">Follow us</p>
         <div className="social-icons">
