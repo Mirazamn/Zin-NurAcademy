@@ -61,8 +61,8 @@
 
 .subscribe-btn {
   width: 100%;
-  background-color: #e0f7f5;
-  color: #009688;
+  background-color: var(--Aqua-Squeeze);
+  color: var(--Observatory);
   border: none;
   padding: 10px;
   font-weight: 600;

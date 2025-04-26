@@ -18,10 +18,10 @@ function Footer() {
               <a href="https://www.instagram.com/" target='_blank'>
                 <img src={Instagram} alt="" />
               </a>
-              <a href="https://github.com/" target='_blank'>
+              <a href="https://www.telegram.org/" target='_blank'>
                 <img src={Github} alt="" />
               </a>
-              <a href="https://www.linkedin.com/" target='_blank'>
+              <a href="https://www.threads.com/" target='_blank'>
                 <img src={Linkedin} alt="" />
               </a>
             </div>
