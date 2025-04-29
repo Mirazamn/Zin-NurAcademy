@@ -1,8 +1,6 @@
 import CallToAction from './images/cta.svg'
 import PhoneCall from './ui-icons/PhoneCall.svg'
 import EnvelopeSimple from './ui-icons/EnvelopeSimple.svg'
-import twitter from './social-icons/twitter-postel.svg'
-import behance from './social-icons/behance-postel.svg'
 import dribbble from './social-icons/dribbble-postel.svg'
 import instagram from './social-icons/instagram-postel.svg'
 import UserImg from './ui-icons/User.svg'
@@ -25,4 +23,4 @@ import Call from './ui-icons/call.svg'
 
 
 
-export {CallToAction, PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg, SarahK, MichaelL, LaurenM, Youtube, Instagram, Github, Linkedin, GetLandingImg, Visuals, StarIcon, EmptyStar, Call};
+export {CallToAction, PhoneCall, EnvelopeSimple, dribbble, instagram, UserImg, SarahK, MichaelL, LaurenM, Youtube, Instagram, Github, Linkedin, GetLandingImg, Visuals, StarIcon, EmptyStar, Call};

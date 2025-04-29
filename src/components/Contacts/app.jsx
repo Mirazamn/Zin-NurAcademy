@@ -2,7 +2,7 @@ import './style.css'
 import '../../components/variable.css'
 import '../../index.css'
 
-import {PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg, Call} from '../../asstes/plan'
+import {PhoneCall, EnvelopeSimple, dribbble, instagram, UserImg, Call} from '../../asstes/plan'
 
 import { useState } from 'react'
 import { RiTelegram2Fill } from "react-icons/ri";
