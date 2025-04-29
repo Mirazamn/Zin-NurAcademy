@@ -1,5 +1,7 @@
 import './style.css'
 import { useEffect } from 'react';
+import { FaRocket } from "react-icons/fa";
+
 
 // Header.jsx
 export function Header({ logo, openModal }) {
@@ -50,7 +52,7 @@ export function Header({ logo, openModal }) {
                     </a>
                     <a onClick={openModal}>
                         <button className="display-x cta h-button">
-                            <i className="fa-solid fa-rocket"></i>
+                            <FaRocket />
                             Ro‘yxatdan o‘tish                        
                         </button>
                     </a>

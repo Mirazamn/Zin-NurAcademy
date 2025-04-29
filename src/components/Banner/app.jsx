@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import SubscribeModal from '../Modal/app'
+import { FaArrowRight } from "react-icons/fa";
+
 
 import './style.css'
 import '../../components/variable.css'
@@ -20,7 +22,8 @@ function GetLanding() {
               <p>Til o‘rganishni orqaga surmang — Zin-Nur Akademiyasi sizni kutmoqda. Bepul birinchi darsga yoziling va farqni his eting!</p>
               <a onClick={() => setModalOpen(true)}>
                 <button className="display-x flex">
-                Ro‘yxatdan o‘tish <i className="fa-solid fa-arrow-right"></i>
+                Ro‘yxatdan o‘tish <FaArrowRight />
+
                 </button>
               </a>
             </div>

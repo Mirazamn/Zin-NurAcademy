@@ -56,7 +56,7 @@
 }
 
 
-.plan-cards .card ul li i {
+.plan-cards .card ul li .icon {
      color: var(--Observatory);
 }
 
@@ -85,7 +85,7 @@ body .plan .plan-cards .enterprise {
 }
 
 
-.plan .plan-cards .enterprise li i,
+.plan .plan-cards .enterprise li .icon,
 .plan .plan-cards .enterprise li,
 .plan .plan-cards .enterprise,
 .plan .plan-cards .enterprise h6,

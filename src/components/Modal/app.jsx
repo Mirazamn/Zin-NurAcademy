@@ -2,6 +2,13 @@ import React from 'react';
 import { useState } from 'react';
 import './style.css'; 
 
+import { FaThreads } from "react-icons/fa6";
+import { FaTelegram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
+
+
 const SubscribeModal = ({ isOpen, onClose }) => {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
@@ -70,16 +77,16 @@ const SubscribeModal = ({ isOpen, onClose }) => {
         <p className="follow-text">Bizni kuzatib boring</p>
         <div className="social-icons">
           <a href="https://www.instagram.com/zinnur_akademiyasi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer">
-            <i className="fab fa-instagram"></i>
+            <FaInstagram />
           </a>
           <a href="https://www.youtube.com/@ZinNurAkademiyasi" target="_blank" rel="noreferrer">
-          <i class="fa-brands fa-youtube"></i>
+            <FaYoutube />
           </a>
           <a href="https://t.me/zinnur_akademiyasi" target="_blank" rel="noreferrer">
-          <i class="fa-brands fa-telegram"></i>
+            <FaTelegram />
           </a>
           <a href="https://www.threads.com/@zinnur_akademiyasi" target="_blank" rel="noreferrer">
-          <i class="fa-brands fa-threads"></i>
+            <FaThreads />
           </a>
         </div>
 

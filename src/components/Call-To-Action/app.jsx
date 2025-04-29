@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import SubscribeModal from '../Modal/app'
 
+import { FaArrowRight } from "react-icons/fa6";
+
 import '../Hero/style.css'
 import '../../components/variable.css'
 import '../../index.css'
@@ -28,7 +30,7 @@ function CTA() {
                     onClick={() => setModalOpen(true)}>
                   <button className="cta display-x">
                     Ro‘yxatdan o‘tish
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <FaArrowRight />
                   </button>
                 </a>
               </div>

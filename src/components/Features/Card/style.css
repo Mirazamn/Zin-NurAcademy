@@ -15,6 +15,11 @@
 .Persimmon {
     background: var(--Mandys-Pink);
     color: var(--Persimmon);
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -35,11 +40,12 @@
 .Sweet-Corn {
     background: var(--Light-Yellow);
     color: var(--Sweet-Corn);
-}
+    font-size: 25px;
 
 
-.Sweet-Corn i {
-    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

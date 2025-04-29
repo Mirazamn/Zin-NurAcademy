@@ -3,6 +3,8 @@ import './style.css'
 import '../../components/variable.css'
 import '../../index.css'
 import SubscribeModal from '../Modal/app'
+import { FaRocket } from "react-icons/fa";
+
 
 import {Visuals
 } from '../../asstes/plan'
@@ -30,7 +32,7 @@ function Hero(){
                     className="cta display-x"
                     onClick={() => setModalOpen(true)}
                   >
-                    <i className="fa-solid fa-rocket"></i> Ro‘yxatdan o‘tish
+                    <FaRocket /> Ro‘yxatdan o‘tish
                   </button>
                   <SubscribeModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
                 {/* </a> */}

@@ -5,7 +5,8 @@ import '../../index.css'
 import {PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg, Call} from '../../asstes/plan'
 
 import { useState } from 'react'
-
+import { RiTelegram2Fill } from "react-icons/ri";
+import { FaThreads } from "react-icons/fa6";
 
 
 function Contacts() {
@@ -73,10 +74,10 @@ function Contacts() {
                       <img src={dribbble} alt="" />
                     </a>
                     <a href="https://t.me/zinnur_akademiyasi" target='_blank'>
-                      <img src={behance} alt="" />
+                      <RiTelegram2Fill className='social-icon'/>
                     </a>
                     <a href="https://www.threads.com/@zinnur_akademiyasi" target='_blank'>
-                      <img src={twitter} alt="" />
+                      <FaThreads className='social-icon'/>
                     </a>
                   </div>
                 </div>
