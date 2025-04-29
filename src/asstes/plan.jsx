@@ -17,6 +17,7 @@ import GetLandingImg from './images/get-landing.svg' // Get Landing
 import Visuals from './images/Visuals.svg' // Hero
 import StarIcon from './images/Star-Icon.svg'
 import EmptyStar from './images/star-empty.svg'
+import Call from './ui-icons/call.svg'
 
 
 
@@ -24,4 +25,4 @@ import EmptyStar from './images/star-empty.svg'
 
 
 
-export {CallToAction, PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg, SarahK, MichaelL, LaurenM, Youtube, Instagram, Github, Linkedin, GetLandingImg, Visuals, StarIcon, EmptyStar};
+export {CallToAction, PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg, SarahK, MichaelL, LaurenM, Youtube, Instagram, Github, Linkedin, GetLandingImg, Visuals, StarIcon, EmptyStar, Call};

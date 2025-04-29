@@ -74,7 +74,7 @@ function Feedbacks() {
     
                 <main>
                   <p className="body-m">
-                    Koreys tilida boshlang‘ich bilimlarim bor edi, lekin bu yerda o‘qib darajam oshdi. Hozir TOPIK 2 tayyorlanyapman.
+                  Zin-Nur Akademiyasi — til o‘rganish uchun zo'r joy! O‘qituvchilari tajribali, darslar tushunarli va samarali o‘tadi.
                   </p>
     
                   <div className="rating">

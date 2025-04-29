@@ -25,7 +25,7 @@ function Metrics() {
               </div>
     
               <div data-aos="fade-up" data-aos-delay="200" className="metric">
-                <span className="display-m">4 ta</span>
+                <span className="display-m">3 ta</span>
                 <h4 className="body-m">Tillar bo‘yicha kurslar</h4>
               </div>
     

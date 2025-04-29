@@ -2,7 +2,7 @@ import './style.css'
 import '../../components/variable.css'
 import '../../index.css'
 
-import {PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg} from '../../asstes/plan'
+import {PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg, Call} from '../../asstes/plan'
 
 import { useState } from 'react'
 
@@ -93,7 +93,7 @@ function Contacts() {
     
                 <div data-aos="fade-up" data-aos-delay="100" className="field flex">
                   <label htmlFor="email">
-                    <img src={EnvelopeSimple} alt="" />
+                    <img src={Call} alt="" />
                   </label>
                   <input type="number" className="body-m" id="email" placeholder="Telefon Raqam" onChange={(e) => setPhone(e.target.value)} required />
                 </div>

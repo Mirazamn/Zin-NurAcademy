@@ -20,7 +20,7 @@ function Plans() {
             <div className="plan-cards flex">
               {/* Free Plan */}
               <div data-aos="fade-up" data-aos-delay="300" className="card">
-                <h6 className="body-l">Koreys Tili </h6>
+                <h6 className="body-l">Rus Tili </h6>
                 <h2><span className="display-l">399,000</span>/ oy</h2>
                 <h4 className="body-m">Guruh bilan o‘qish</h4>
                 <ul>

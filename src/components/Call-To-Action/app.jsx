@@ -21,7 +21,7 @@ function CTA() {
             <div data-aos="fade-left" className="hero-txt">
               <h1 className="display-l" id='second-hero'>Bugun kelajagingiz uchun birinchi qadamni tashlang.</h1>
               <p className="body-l">
-               Arab, Ingliz, Rus yoki Koreys tilini o‘rganmoqchimisiz? Bepul birinchi darsga yoziling va o‘zingiz ishonch hosil qiling!
+               Arab, Ingliz yoki Rus tilini o‘rganmoqchimisiz? Bepul birinchi darsga yoziling va o‘zingiz ishonch hosil qiling!
               </p>
               <div className="buttons">
                 <a 

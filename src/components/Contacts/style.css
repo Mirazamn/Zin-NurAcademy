@@ -29,6 +29,7 @@
 .contact-details h2 {
     color: var(--Mine-Shaft);
     gap: 5px;
+    align-items: center;
 }
 
 
