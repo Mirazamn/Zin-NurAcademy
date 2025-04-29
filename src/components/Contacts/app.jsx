@@ -4,10 +4,37 @@ import '../../index.css'
 
 import {PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg} from '../../asstes/plan'
 
+import { useState } from 'react'
 
 
 
 function Contacts() {
+    const [name, setName] = useState('');
+    const [phone, setPhone] = useState('');
+  
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      
+      const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfBsLeuYi4JwkmivW1A3gObdaefHON4LcOpBdpE61v_raKkPg/formResponse"; // Form action URL
+      
+      const formData = new FormData();
+      formData.append("entry.1346747144", name);   // Entry ID for Name
+      formData.append("entry.1836486174", phone);  // Entry ID for Phone
+      
+      await fetch(formUrl, {
+        method: "POST",
+        mode: "no-cors",
+        body: formData,
+      });
+      
+      alert("Xabaringiz yuborildi! Tez orada aloqaga chiqamiz.");
+      
+      // Optional: Formani tozalash
+      setName('');
+      setPhone('');
+    };
+    
+
     return (
         <section className="contacts" id="contacts">
           <div className="container">
@@ -37,16 +64,18 @@ function Contacts() {
                 <div data-aos="fade-right" data-aos-delay="300" className="social-media flex">
                   <h3 className="display-xs">Ijtimoiy Tarmoqlar</h3>
                   <div className="social-links flex">
-                    <a href="https://instagram.com" target='_blank'>
+                    <a href="
+                    https://www.instagram.com/zinnur_akademiyasi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== 
+                    " target='_blank'>
                       <img src={instagram} alt="" />
                     </a>
-                    <a href="https://dribbble.com" target='_blank'>
+                    <a href="https://www.youtube.com/@ZinNurAkademiyasi" target='_blank'>
                       <img src={dribbble} alt="" />
                     </a>
-                    <a href="https://behance.net" target='_blank'>
+                    <a href="https://t.me/zinnur_akademiyasi" target='_blank'>
                       <img src={behance} alt="" />
                     </a>
-                    <a href="https://x.com" target='_blank'>
+                    <a href="https://www.threads.com/@zinnur_akademiyasi" target='_blank'>
                       <img src={twitter} alt="" />
                     </a>
                   </div>
@@ -54,24 +83,22 @@ function Contacts() {
               </div>
     
               {/* Right side: Contact form */}
-              <form className="flex">
+              <form onSubmit={handleSubmit} className="flex">
                 <div data-aos="fade-up" className="field flex">
                   <label htmlFor="name">
                     <img src={UserImg} alt="" />
                   </label>
-                  <input type="text" id="name" placeholder="Ismingiz" required />
+                  <input type="text" id="name" placeholder="Ismingiz" onChange={(e) => setName(e.target.value)} required />
                 </div>
     
                 <div data-aos="fade-up" data-aos-delay="100" className="field flex">
                   <label htmlFor="email">
                     <img src={EnvelopeSimple} alt="" />
                   </label>
-                  <input type="number" className="body-m" id="email" placeholder="Telefon Raqam" required />
+                  <input type="number" className="body-m" id="email" placeholder="Telefon Raqam" onChange={(e) => setPhone(e.target.value)} required />
                 </div>
-    
-                <a data-aos="zoom-in" data-aos-delay="200" href="#contacts">
-                  <button className="display-x">Yuborish</button>
-                </a>
+
+                <button type="submit" className="display-x" data-aos="zoom-in" data-aos-delay="200">Yuborish</button>
               </form>
             </div>
           </div>

@@ -14,9 +14,9 @@ function Features() {
     return (
         <section className="features" id="features">
           <div className="container">
-            <h1 className="display-m">Features</h1>
+            <h1 className="display-m">Nega aynan Zin-Nur Akademiyasi?</h1>
             <p className="body-m">
-              These are just a few features you'll get using Anima Landing Page UI Kit.
+              Ta’lim — bu sizga investitsiya. Zin-Nur Akademiyasi bilan uni eng to‘g‘ri joyda boshlang!
             </p>
     
             <div className="feature-cards">
