@@ -74,7 +74,7 @@ const SubscribeModal = ({ isOpen, onClose }) => {
             onChange={(e) => setPhone(e.target.value)}
             required
           />
-          <button onClick={Redirect} className="subscribe-btn">Yuborish</button>
+          <button type='submit' className="subscribe-btn">Yuborish</button>
         </form>
 
         <p className="follow-text">Bizni kuzatib boring</p>
