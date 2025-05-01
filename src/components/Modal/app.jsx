@@ -45,6 +45,9 @@ const SubscribeModal = ({ isOpen, onClose }) => {
     // Optional: Formani tozalash
     setName('');
     setPhone('');
+
+
+    window.location.href = "https://www.instagram.com/zinnur_akademiyasi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
   };
 
   return (
@@ -71,7 +74,7 @@ const SubscribeModal = ({ isOpen, onClose }) => {
             onChange={(e) => setPhone(e.target.value)}
             required
           />
-          <button className="subscribe-btn">Yuborish</button>
+          <button onClick={Redirect} className="subscribe-btn">Yuborish</button>
         </form>
 
         <p className="follow-text">Bizni kuzatib boring</p>
