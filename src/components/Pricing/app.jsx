@@ -23,7 +23,7 @@ function Plans() {
             <div className="plan-cards flex">
               {/* Free Plan */}
               <div data-aos="fade-up" data-aos-delay="300" className="card">
-                <h6 className="body-l">Rus Tili </h6>
+                <h6 className="body-l">Arab Tili KIDS</h6>
                 <h2><span className="display-l">399,000</span>/ oy</h2>
                 <h4 className="body-m">Guruh bilan o‘qish</h4>
                 <ul>
@@ -51,7 +51,7 @@ function Plans() {
     
               {/* Enterprise Plan */}
               <div data-aos="zoom-in" data-aos-delay="100" className="card enterprise">
-                <h6 className="body-l">Arab Tili</h6>
+                <h6 className="body-l">Arab Tili Fonetikasi</h6>
                 <h2><span className="display-l">999,000</span>/ oy</h2>
                 <h4 className="body-m">Sertifikat + Test tayyorgarligi</h4>
                 <ul>

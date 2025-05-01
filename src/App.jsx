@@ -14,6 +14,7 @@ import Map from './components/Map/app'
 
 import SubscribeModal from './components/Modal/app'
 import { useState } from 'react'
+import Branches from './components/Branches/app'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Feedbacks />
       <Pricing />
       <GetLanding />
+      <Branches />
       <Contact />
       <Map />
       <Footer />

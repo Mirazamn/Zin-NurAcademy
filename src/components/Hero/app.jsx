@@ -17,10 +17,10 @@ function Hero(){
           <div className="container flex">
             <div className="hero-txt">
               <h1 data-aos="fade-up" className='display-l'>
-                Arab, Ingliz va Rus tillarini biz bilan o‘rganing!
+                Arab va Ingliz tillarini biz bilan o‘rganing!
               </h1>
               <p data-aos="fade-up" data-aos-delay="100" className="body-l hero-p">
-                Zin-Nur Akademiyasida tajribali o‘qituvchilar, 
+                ZIN-NUR Akademiyasida tajribali o‘qituvchilar, 
                 qulay darslar va bepul birinchi dars sizni kutmoqda!
               </p>
               

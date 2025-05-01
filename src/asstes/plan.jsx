@@ -16,11 +16,10 @@ import Visuals from './images/Visuals.svg' // Hero
 import StarIcon from './images/Star-Icon.svg'
 import EmptyStar from './images/star-empty.svg'
 import Call from './ui-icons/call.svg'
+import Sergeli from './images/zin-nur-sergeli.svg'
+import Uchtepa from './images/zin-nur-uchtepa.svg'
 
 
 
 
-
-
-
-export {CallToAction, PhoneCall, EnvelopeSimple, dribbble, instagram, UserImg, SarahK, MichaelL, LaurenM, Youtube, Instagram, Github, Linkedin, GetLandingImg, Visuals, StarIcon, EmptyStar, Call};
+export {CallToAction, PhoneCall, EnvelopeSimple, dribbble, instagram, UserImg, SarahK, MichaelL, LaurenM, Youtube, Instagram, Github, Linkedin, GetLandingImg, Visuals, StarIcon, EmptyStar, Call, Sergeli, Uchtepa};

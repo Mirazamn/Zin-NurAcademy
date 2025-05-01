@@ -22,7 +22,7 @@ function Features() {
     return (
         <section className="features" id="features">
           <div className="container">
-            <h1 className="display-m">Nega aynan Zin-Nur Akademiyasi?</h1>
+            <h1 className="display-m">Nima uchun ZIN-NUR Akademiyasi?</h1>
             <p className="body-m">
               Ta’lim — bu sizga investitsiya. Zin-Nur Akademiyasi bilan uni eng to‘g‘ri joyda boshlang!
             </p>
@@ -70,7 +70,7 @@ function Features() {
                   <span className="Sweet-Corn">
                       <BiSolidCube />
                   </span>
-                  <h3 className="display-s">Online va offline darslar</h3>
+                  <h3 className="display-s">Offline va Online darslar</h3>
                   <p className="body-m"> Istasangiz uyda, istasangiz 
                   markazda o‘qishingiz mumkin. </p>
                   <a

@@ -1,0 +1,49 @@
+.branches > .flex {
+    justify-content: center;
+    gap: 2%;
+}
+
+
+.branches img {
+    border-radius: 20px;
+    /* height: 8%; */
+    width: 100%;
+    position: relative;
+}
+
+
+.sergeli {
+    border-radius: 50%;
+}
+
+
+.branches .column {
+    flex-direction: column;
+}
+
+
+.branch-txt {
+    position: absolute;
+    z-index: 99;
+    margin: 220px 20px 20px 20px;
+    padding: 10px 20px;
+    color: var(--Zircon);
+    background: var(--Mine-Shaft-transparent);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.branch-txt a {
+    color: var(--Zircon);
+}
+
+
+.branch-txt a:hover {
+    border-bottom: 1px solid var(--Zircon);
+}
