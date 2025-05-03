@@ -10,17 +10,21 @@ function Branches() {
                     <div className="card">
                         <div className="branch-txt">
                             <h2>UCHTEPA FILIALI</h2>
-                            <a href='https://yandex.uz/maps/org/66856939225/?ll=69.183645%2C41.310394&z=16' target='_blank'>O‘zbekiston, Toshkent shahri, Oqtepa ko‘chasi, 489A-uy</a>
+                            <a href='https://yandex.uz/maps/org/66856939225/?ll=69.183645%2C41.310394&z=16' target='_blank'>
+                                Oqtepa ko'chasi, 489A, Toshkent
+                            </a>
                         </div>
-                        <img src={Sergeli} className="sergeli column" />
+                        <img src={Uchtepa} className="sergeli column" />
                     </div>
 
                     <div className="card">
                         <div className="branch-txt">
                             <h2>SERGELI FILIALI</h2>
-                            <a href='https://yandex.uz/maps/org/zin_nur_akademiyasi/155272257265/?ll=69.210049%2C41.220986&z=16.77' target='_blank'>Сергелийский район, массив Сергели-VII, 29А</a>
+                            <a href='https://yandex.uz/maps/org/zin_nur_akademiyasi/155272257265/?ll=69.210049%2C41.220986&z=16.77' target='_blank'>
+                                Sergeli-VII, 29A, Toshkent
+                            </a>
                         </div>
-                        <img src={Uchtepa} className="uchtepa column" />
+                        <img src={Sergeli} className="uchtepa column" />
                     </div>
             </div>
         </div>
